@@ -47,4 +47,22 @@ img{
     flex-direction: column;
    }
 }
+@media (max-width:1400px){
+    .header{
+        text-align: center;
+        margin-top: 0px;
+        font-size: 15px;
+        font-family: "Poppins", sans-serif;
+    }
+    .img{
+        padding: 0;
+    }
+    .i{
+        width: 250px;
+        height: 200px;
+    }
+    .first-row{
+        margin-top: 5px;
+    }
+}
 

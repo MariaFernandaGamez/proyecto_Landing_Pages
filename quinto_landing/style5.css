@@ -34,8 +34,8 @@ h1{
 }
 @media(max-width:700px){
     body{
-        margin: 0;
-        font-size: 15px;
+        margin-left: 0;
+        font-size: 20px;
     }
     .bottomD{
         flex-direction: column;
@@ -44,11 +44,38 @@ h1{
     .i{
         margin-left: 0px;
     }
-    p{
+    h1{
+        text-align: center;
+        margin-left: 0;
+        font-size: 40px;
+    }
+    .img{
+        padding: 0;
+        width: auto;
+    }
+}
+@media(max-width:1400px){
+    .i{
         margin-left: 0px;
+        width: 355px;
+        height: 295px;
     }
     h1{
-        margin-left: 0px;
-        font-size: 20px;
+        margin-left: 65px;
+        margin-top: 0;
+        font-size: 35px;
+    }
+    p{
+        margin-left: 0;
+        margin-top: 0;
+    }
+    .img{
+        padding: 20px;
+        font-size: 15px;
+        margin-top: 0;
+    }
+    .n{
+        margin-top: 0;
+        margin-bottom: 0;
     }
 }

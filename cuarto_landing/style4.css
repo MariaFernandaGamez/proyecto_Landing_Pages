@@ -53,3 +53,28 @@ body{
         height: auto;
     }
 }
+@media(max-width:1400px){
+    body{
+        display: flex;
+        font-size:16px;
+        margin-top:auto;
+        margin-left: 0;
+        font-family: "Poppins", sans-serif;
+    }
+    .izquierda{
+        width:800px;
+    }
+    .derecha{
+        margin-top: 60;
+        margin-left:0;
+    }
+    .i{
+        margin-top: 70px;
+        height: 610px;
+        width: 700px;
+    }
+    .n{
+        font-size: 22px;
+        color: grey;
+    }
+}
