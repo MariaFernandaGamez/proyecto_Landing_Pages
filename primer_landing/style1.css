@@ -17,6 +17,7 @@
     color: white;
     background-color: rgb(24, 23, 23);
     font-size: 17px;
+    border: solid rgb(24, 23, 23);
 }
 .first-row{
     display: flex;
