@@ -1,0 +1,56 @@
+@import url('https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&display=swap');
+*{
+    font-family: "Lato", sans-serif;
+}
+body{
+    margin: 0 10%;
+}
+.content{
+    display: flex;
+    align-items: center;
+    background-image: url("img/fondo.png");
+    background-size: cover;
+    width: 100%;
+    height: 846px;
+    border-bottom-left-radius: 40px;
+    border-bottom-right-radius: 40px;
+}
+h1{
+    margin: 0 0 50px 50px;
+    font-size: 70px;
+    color: white;
+}
+.info p{
+    color: white;
+    font-size: 25px;
+    margin: 0 0 55px 50px;
+}
+.content button{
+    color: black;
+    background-color: rgba(255, 255, 255, 0.781);
+    border: none;
+    border-radius: 30px;
+    font-size: 20px;
+    padding: 15px 50px;
+    margin: 0 0 50px 50px;
+}
+.images{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: relative;
+    bottom: 90px;
+}
+.images img{
+    padding: 0%;
+    margin: 0%;
+}
+.img1{
+    margin-right: 0;
+    border-top-left-radius: 30px;
+    border-bottom-left-radius: 30px;
+}
+.img6{
+    border-top-right-radius: 30px;
+    border-bottom-right-radius: 30px;
+}
