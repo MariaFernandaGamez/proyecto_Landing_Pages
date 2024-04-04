@@ -1,0 +1,12 @@
+.header{
+    text-align: center;
+    margin-top: 80px;
+    font-size: 30px;
+}
+.buttonH{
+    width: 120px;
+    height: 35px;
+    border-radius: 10px;
+    color: white;
+    background-color: rgb(24, 23, 23);
+}
