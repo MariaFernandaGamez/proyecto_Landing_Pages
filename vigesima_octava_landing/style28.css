@@ -1,0 +1,22 @@
+
+.Description button{
+    color: white;
+    background-color: rgba(36, 35, 35, 0.938);
+    border: none;
+    border-radius: 30px;
+    font-size: 13px;
+    padding: 10px 30px;
+}
+.images{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 0%;
+    padding: 0%;
+    text-align: center;
+}
+.imag p{
+    color: white;
+    position: relative;
+    bottom: 75px;
+}
