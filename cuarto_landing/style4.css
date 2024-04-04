@@ -1,0 +1,54 @@
+@import url('https://fonts.googleapis.com/css2?family=Edu+NSW+ACT+Foundation:wght@400..700&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Work+Sans:ital,wght@0,100..900;1,100..900&display=swap');
+body{
+    display: flex;
+    font-size:20px;
+    margin-top:50px;
+    margin-left: 0;
+    font-family: "Poppins", sans-serif;
+}
+.buttonH{
+    width: 120px;
+    height: 35px;
+    border-radius: 10px;
+    border: solid rgb(24, 23, 23);
+    color: white;
+    background-color: rgb(24, 23, 23);
+    font-size: 17px;
+}
+.izquierda{
+    width: 980px;
+    height: 915px;
+    
+}
+.derecha{
+    margin-left: 125px;
+    height: 915px;
+}
+.i{
+    width: 980px;
+    height: 915px;
+}
+.n{
+    font-size: 40px;
+    color: grey;
+}
+@media (max-width:700px) {
+    
+    body{
+        flex-direction: column-reverse;
+        margin-top: 0px;
+        font-size: 17px;
+    }
+    .derecha{
+        margin-left: 20px;
+        text-align: center;
+        height: auto;
+    }
+    .i{
+        margin-top: 30px;
+        height: 380px;
+        width: 389px;
+    }
+    .izquierda{
+        height: auto;
+}
