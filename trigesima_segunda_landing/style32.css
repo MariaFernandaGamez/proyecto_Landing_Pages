@@ -1,0 +1,107 @@
+@import url('https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&display=swap');
+*{
+    font-family: "Lato", sans-serif;
+    margin: 0;
+}
+body{
+    background-color: #FBF4DF;
+}
+.container{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    margin-top: 40px;
+}
+h1{
+    font-size: 70px;
+    margin: 40px 0; 
+    padding: 30px 70px;
+    border: solid 2px black;
+}
+.star{
+    margin-left: 20px;
+}
+.info{
+    margin-left: 40px;
+    
+}
+.info p{
+    font-size: 25px;
+    margin-bottom: 40px;
+    margin-left: 90px;
+}
+.container button{
+    color: white;
+    background-color: rgba(0, 0, 0, 0.89);
+    border: none;
+    border-radius: 30px;
+    font-size: 20px;
+    padding: 15px 50px;
+    margin-left: 90px;
+}
+.move{
+    position: relative;
+    top: 30px;
+    right: 90px;
+}
+.barra{
+    display: flex;
+    background-color: #F8D046;
+    justify-content: space-around;
+    border: solid 2px black;
+    border-radius: 30px;
+    margin: 3rem 16.2rem 0;
+    padding: 1rem 0;
+    box-shadow: 15px 15px 0px 0px #EFC356;
+}
+.barra p{
+    font-size: 23px;
+}
+h2{
+    font-size: 35px;
+}
+@media (max-width:768px) {
+    .container{
+        flex-direction: column;
+        text-align: center;
+    }
+    .info{
+        margin: 0;
+    }
+    h1{
+        font-size: 60px;
+        margin: 10px;
+        padding: 0;
+    }
+    .info p{
+        margin: 20px 0;
+        font-size: 16px;
+    }
+    .container button{
+        margin: 0;
+    }
+    .woman{
+        margin-top: 90px;
+        margin-left: 30px;
+        width: min(100% - 80px, 500px);
+    }
+   .barra{
+    flex-direction: column;
+    margin: 1.5rem;
+    padding: 1rem;
+    text-align: center;
+   }
+   .detalle{
+    margin: 3rem 0;
+   }
+   .img{
+    display: flex;
+    margin-bottom: 30px;
+   }
+   .img .move {
+    width: 50px;
+    height: 50px;
+    top: 420px;
+    right: 20px;
+   }
+}

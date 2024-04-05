@@ -1,4 +1,8 @@
-
+*{
+    background-color: #EFC356;
+    margin: 0;
+    padding: 0;
+}
 .content{
     background-color: #EFC356;
     height: 900px;
@@ -14,24 +18,28 @@
     padding: 15px 50px;
     margin: 0 0 50px 50px;
 }
+
 h1{
     font-size: 85px;
     color: white;
-}
-.images{
-    display: flex;
 }
 .text p{
     font-size: 33px;
     color: white;
 }
+
+.images{
+    display: flex;
+    background-color: white;
+}
+/*
 .info{
     display: flex;
     flex-direction: column;
     justify-content: center;
 }
 .collage{
-    position: absolute;
+    position: relative;
     top: 130px;
     left: 800px;
 }
@@ -45,7 +53,7 @@ h1{
     z-index:5;
 }
 .info img{
-    position: absolute;
+    position: relative;
     left: 230px;
     bottom: 120px;
 }
@@ -60,11 +68,20 @@ h1{
     position: absolute;
 }
 .patica{
-    position: absolute;
+    position: relative;
     left: 300px;
 }
 .asterisk{
-    position: absolute;
+    position: relative;
     top: 570px;
     left: 400px;
+}*/
+@media (max-width:768px) {
+    .content{
+        display: flex;
+        flex-direction: column;
+        justify-content: flex-start;
+        width: 100%;
+    }
+    
 }
