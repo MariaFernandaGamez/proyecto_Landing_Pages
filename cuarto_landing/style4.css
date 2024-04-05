@@ -61,6 +61,9 @@ body{
         margin-left: 0;
         font-family: "Poppins", sans-serif;
     }
+    h1{
+        font-size: 35px;
+    }
     .izquierda{
         width:800px;
     }
@@ -69,9 +72,9 @@ body{
         margin-left:0;
     }
     .i{
-        margin-top: 70px;
-        height: 610px;
-        width: 700px;
+        margin-top: 40px;
+        height: 700px;
+        width: 650px;
     }
     .n{
         font-size: 22px;

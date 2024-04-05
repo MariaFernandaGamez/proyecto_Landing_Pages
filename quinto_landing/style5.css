@@ -35,7 +35,9 @@ h1{
 @media(max-width:700px){
     body{
         margin-left: 0;
-        font-size: 20px;
+    }
+    p{
+        font-size: 19px;
     }
     .bottomD{
         flex-direction: column;
@@ -47,6 +49,7 @@ h1{
     h1{
         text-align: center;
         margin-left: 0;
+        margin-right: 30px;
         font-size: 40px;
     }
     .img{
