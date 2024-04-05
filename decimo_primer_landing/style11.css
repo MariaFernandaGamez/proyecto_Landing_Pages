@@ -1,0 +1,9 @@
+.buttonH{
+    width: 120px;
+    height: 35px;
+    border-radius: 10px;
+    border: solid rgb(24, 23, 23);
+    color: white;
+    background-color: rgb(24, 23, 23);
+    font-size: 17px;
+}
