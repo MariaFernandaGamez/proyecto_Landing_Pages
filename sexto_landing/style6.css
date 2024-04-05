@@ -88,7 +88,7 @@ h1{
 }
 
 
-@media(max-width:700px){
+@media(max-width:800px){
     .container{
         flex-direction:column;
     }
@@ -102,11 +102,15 @@ h1{
         margin-left: 0;
     }
     .icons{
-        height: 150px;
+        height: 100px;
+        width: max-content;
         padding: 10px;
+        margin-left: 0px;
+        margin-right: 50px;
     }
     .image{
         margin-left: 0;
+        
     }
     .i{
         margin-top:45px;
