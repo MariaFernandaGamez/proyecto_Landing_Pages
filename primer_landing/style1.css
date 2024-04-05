@@ -47,7 +47,7 @@ img{
     flex-direction: column;
    }
 }
-@media (max-width:1400px){
+/* @media (max-width:1400px){
     .header{
         text-align: center;
         margin-top: 0px;
@@ -64,5 +64,5 @@ img{
     .first-row{
         margin-top: 5px;
     }
-}
+} */
 
