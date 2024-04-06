@@ -1,0 +1,108 @@
+@import url('https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&display=swap');
+*{
+    font-family: "Lato", sans-serif;
+    margin: 0;
+}
+body{
+    background-image: url("img/fondo.png");
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+}
+.container{
+    margin-top: 80px;
+}
+.container button{
+    color: white;
+    background-color: rgba(0, 0, 0, 0.774);
+    border: none;
+    border-radius: 30px;
+    font-size: 20px;
+    padding: 15px 50px;
+    margin-bottom: 60px;
+}
+.info p{
+    font-size: 25px;
+    margin-bottom: 30px;
+}
+h1{
+    font-size: 60px;
+    margin-bottom: 40px;
+}
+.images{
+    display: grid;
+    grid-template-columns: 236px 236px 491px 301px;
+    grid-template-rows: 236px 236px;
+}
+.img{
+    margin: 5px;
+    border-radius: 20px;
+}
+h2{
+    font-size: 28px;
+}
+.img1{
+    display: flex;
+    background-image: url("img/Img1.png");
+    background-size: cover;
+    height: auto;
+    justify-content: center;
+    align-items: flex-end;
+    padding: 0 0 15px;
+}
+.img2{
+    background-image: url("img/Img2.png");
+    display: flex;
+    justify-content: center;
+    align-items: flex-end;
+    padding: 0 0 15px;
+}
+.img3{
+    background-image: url("img/Img3.png");
+    grid-row: span 2;
+    text-align: end;
+}
+.img3 h2{
+    margin: 15px 20px;
+}
+.img4{
+    background-image: url("img/Img4.png");
+    display: flex;
+    justify-content: center;
+    align-items: flex-end;
+    padding: 0 0 15px;
+}
+.img5{
+    background-image: url("img/Img5.png");
+    grid-column: span 2;
+    text-align: start;
+}
+.img5 h2{
+    margin: 15px 0 0 20px;
+}
+.img6{
+    background-image: url("img/Img6.png");
+    display: flex;
+    justify-content: center;
+    align-items: flex-end;
+    padding: 0 0 15px;
+}
+@media (max-width: 768px) {
+    body{
+        background-size: cover;
+        height: auto;
+    }
+    h1{
+        font-size: 55px;
+        bottom: 20px;
+    }
+    .images{
+        grid-template-columns: 236px 236px;
+        grid-template-rows: 236px 236px 260px 236px 236px; 
+        grid-auto-flow: dense;
+    }
+    .img3{
+        grid-column: span 2;
+    }
+}
