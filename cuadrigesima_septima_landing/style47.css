@@ -1,0 +1,112 @@
+@import url('https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&display=swap');
+*{
+    font-family: "Lato", sans-serif;
+    margin: 0;
+    background-color: #F8F8F8;
+}
+.container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 80px;
+}
+h1{
+    font-size: 70px;
+}
+.second{
+    margin-left: 60px;
+}
+.text{
+    display: flex;
+    align-items: center;
+    margin-top: 30px;
+}
+.img{
+    display: flex;
+    flex-direction: column;
+}
+.img .corazon{
+    width: 131px;
+    height: 131px;
+}
+.barra{
+    display: flex;
+    justify-content: center;
+}
+.sub-text{
+    margin-left: 30px;
+}
+.sub-text p{
+    font-size: 25px;
+    margin-bottom: 20px;
+}
+.container button{
+    color: whitesmoke;
+    background-color: rgba(0, 0, 0, 0.863);
+    border: none;
+    border-radius: 30px;
+    font-size: 20px;
+    padding: 15px 50px;
+}
+.corazon{
+    align-self: flex-end;
+    position: relative;
+    top: 30px;
+}
+.barra{
+    margin-top: 50px;
+}
+.bar1 , .bar2{
+    padding: 40px;
+}
+h2{
+    padding-bottom: 20px;
+}
+.bar1 {
+    background-color: #ffffff;
+    p{
+        background-color: #ffffff;
+    }
+    h2{
+        background-color: #ffffff;
+    }
+}
+.bar2 {
+    background-color: #E2E7F1;
+    p{
+        background-color: #E2E7F1;
+    }
+    h2{
+        background-color: #E2E7F1;
+    }
+}
+@media (max-width:768px) {
+    .container{
+        flex-direction: column;
+        align-items: flex-start;
+    }
+    h1{
+        font-size: 50px;
+    }
+
+    .text{
+        margin: 50px 10px;
+    }
+    .sub-text p{
+        font-size: 16px;
+    }
+    .corazon{
+        width: min(100% - 20px, 40px);
+        right: 30px;
+    }
+    .camara{
+        width: min(100% - 80px, 600px);
+    }
+    .barra{
+        flex-direction: column;
+        margin-top: 60px;
+    }
+    .bar1 , .bar2{
+        margin: 0 40px;
+    }
+}
