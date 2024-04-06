@@ -65,6 +65,14 @@ h2{
     display: flex;
     justify-content: space-between;
 }
+@media (max-width: 1400px) {
+    body{
+        margin: 0;
+    }
+    .info{
+        margin-left: 90px;
+    }
+}
 @media (max-width: 768px) {
     body{
         margin: 0;

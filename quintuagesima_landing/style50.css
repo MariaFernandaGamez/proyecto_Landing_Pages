@@ -98,8 +98,8 @@ h2{
         bottom: 20px;
     }
     .images{
-        grid-template-columns: 236px 236px;
-        grid-template-rows: 236px 236px 260px 236px 236px; 
+        grid-template-columns: 226px 226px;
+        grid-template-rows: 226px 226px 250px 226px 226px; 
         grid-auto-flow: dense;
     }
     .img3{

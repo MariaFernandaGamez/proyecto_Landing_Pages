@@ -49,11 +49,23 @@ h2{
     color: white;
     font-size: 20px;
 }
+@media (max-width: 1400px) {
+    body{
+        margin: 0;
+    }
+    .container{
+        height: auto;
+        width: 91%;
+        
+    }
+}
+
 @media (max-width: 768px) {
     body{
         margin: 0;
     }
     .container{
+        width: 100%;
         height: auto;
         flex-direction: column;
         margin: 0;

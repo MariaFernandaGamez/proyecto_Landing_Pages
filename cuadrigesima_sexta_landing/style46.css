@@ -36,6 +36,18 @@ h1{
     font-size: 20px;
     padding: 15px 50px;
 }
+@media (max-width:1400px) {
+    .zona{
+        width: 100%;
+        margin: 0;
+        height: 650px;
+        background-position:bottom;
+    }
+    .info{
+        justify-content: flex-start;
+        margin-top: 60px;
+    }
+}
 @media (max-width:768px) {
     
     .zona{

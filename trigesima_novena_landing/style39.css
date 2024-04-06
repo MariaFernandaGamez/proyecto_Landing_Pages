@@ -60,11 +60,20 @@ h1{
     color: white;
     margin-left: 25px;
 }
+@media (max-width:1400px) {
+    .body{
+        height: auto;
+    }
+    .container{
+        margin: 0 0 150px;
+    }
+}
 @media (max-width:768px) {
     body{
         flex-direction: column;
         justify-content: flex-start;
         height: auto;
+        
     }
     h1{
         font-size: 60px;
