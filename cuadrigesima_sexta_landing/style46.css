@@ -1,0 +1,54 @@
+@import url('https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&display=swap');
+*{
+    font-family: "Lato", sans-serif;
+    margin: 0;
+}
+.zona{
+    margin: 0 10%;
+    width: 80%;
+    background-image: url("img/Fondo.png");
+    background-size: cover;
+    height: 1020px;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+}
+.info{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+h1{
+    font-size: 70px;
+    color: black;
+    margin-bottom: 50px;
+}
+.info p{
+    font-size: 25px;
+    margin-bottom: 50px;
+}
+.zona button{
+    color: whitesmoke;
+    background-color: rgba(0, 0, 0, 0.863);
+    border: none;
+    border-radius: 30px;
+    font-size: 20px;
+    padding: 15px 50px;
+}
+@media (max-width:768px) {
+    
+    .zona{
+        margin: 0;
+        padding: 100px 0;
+        width: 100%;
+        height: 500px;
+        background-position: center;
+    }
+    h1{
+        font-size: 50px;
+    }
+    .info p{
+        font-size: 18px;
+    }
+}
