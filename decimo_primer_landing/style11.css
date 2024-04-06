@@ -1,9 +1,121 @@
+@import url('https://fonts.googleapis.com/css2?family=Edu+NSW+ACT+Foundation:wght@400..700&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Work+Sans:ital,wght@0,100..900;1,100..900&display=swap');
+
+body{
+    font-family: "Poppins", sans-serif;
+}
 .buttonH{
-    width: 120px;
-    height: 35px;
-    border-radius: 10px;
+    width: 160px;
+    height: 55px;
+    border-radius: 30px;
     border: solid rgb(24, 23, 23);
     color: white;
-    background-color: rgb(24, 23, 23);
-    font-size: 17px;
+    background-color: #252525;
+    font-size: 23px;
+}
+.topD{
+    display: flex;
+    font-size: 30px;
+}
+.content{
+    width: 780px;
+    margin-left: 150px;
+    margin-top: 50px;
+}
+.img{
+    display: flex;
+    flex-direction: row-reverse;
+    margin-top: 20px;
+    margin-left: 200px;
+    
+}
+.table{
+    display: flex;
+    width:1500px ;
+    height:280px ;
+    
+    background-color: #252525;
+    color: white;
+    font-size: 20px;
+    text-align: center;
+
+    border:solid #252525 2px;
+    border-radius: 30px;
+
+    margin-left: 190px;
+    margin-top: 100px;
+    
+    padding-bottom: 0px; 
+}
+.item{
+    margin-top:60px;
+    text-align: left;
+    margin-left: 60px;
+}
+.item_title{
+    margin-top: 0;
+    margin-bottom: 0;
+}
+.Left{
+    height: 410px;
+    width: 330px;
+}
+.Right{
+    height: 410px;
+    width: 340px;
+    position: absolute;
+    right:270px;
+    top:190px;
+}
+@media(max-width:700px){
+    .topD{
+        flex-direction: column;    
+    }
+    .content{
+        width: 380px;
+
+        font-size: 20px;
+
+        margin-left: 0;
+        margin-top: 0;
+    }
+    .buttonH{
+        margin-left: 105px;
+    }
+    .img{
+        margin-left: 0;
+        margin-top: 50px;
+        margin-right: 0;
+    }
+    .Left{
+        height: 300px;
+        width: 280px;
+        margin-right:90px;
+    }
+    .Right{
+        height: 300px;
+        width: 280px;
+        position: absolute;
+        right:10px;
+        top:600px;
+        
+    }
+    .botD{
+        margin-top: 120px;
+    }
+    .table{
+        flex-direction: column;
+        width:360px ;
+        height:800px ;
+        margin-left: 0px;
+        padding-bottom: 0px; 
+        padding-right: 10px;
+    }
+    h1{
+        text-align: center;
+    }
+    .item{
+        margin-top:50px;
+        text-align: left;
+        margin-left: 40px;
+    }
 }
