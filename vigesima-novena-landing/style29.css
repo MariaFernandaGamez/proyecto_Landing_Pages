@@ -42,8 +42,8 @@ h1{
     bottom: 90px;
 }
 .images img{
-    padding: 0%;
-    margin: 0%;
+    padding: 0;
+    margin: 0;
 }
 .img1{
     margin-right: 0;
@@ -53,4 +53,33 @@ h1{
 .img6{
     border-top-right-radius: 30px;
     border-bottom-right-radius: 30px;
+}
+@media (max-width: 768px) {
+    body{
+        margin: 0;
+    }
+    h1{
+        font-size: 60px;
+    }
+    .info p{
+        font-size: 22px;
+    }
+    .content{
+        margin: 0;
+        padding-top: 40px;
+        width: 100%;
+        background-size: cover;
+        background-position: center;
+        height: auto;
+    }
+    .images{
+        position: relative;
+        flex-direction: column;
+        top: 20px;
+        bottom: 0px;
+    }
+    .images img{
+        border-radius: 30px;
+        margin: 10px 0;
+    }
 }
