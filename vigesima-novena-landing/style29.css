@@ -54,10 +54,22 @@ h1{
     border-top-right-radius: 30px;
     border-bottom-right-radius: 30px;
 }
+@media (max-width: 1400px) {
+    body{
+        margin: 0;
+    }
+    .images{
+        bottom: 80px;
+    }
+    .images img{
+        width: 200px;
+    }
+}
 @media (max-width: 768px) {
     body{
         margin: 0;
     }
+    
     h1{
         font-size: 60px;
     }
