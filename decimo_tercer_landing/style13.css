@@ -1,0 +1,203 @@
+@import url('https://fonts.googleapis.com/css2?family=Edu+NSW+ACT+Foundation:wght@400..700&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Work+Sans:ital,wght@0,100..900;1,100..900&display=swap');
+body{
+    font-family: "Poppins", sans-serif;
+}
+.degradado{
+
+    position: absolute;
+
+    background: linear-gradient(to top left, rgb(249, 240, 180), transparent), 
+    linear-gradient(to bottom left, rgb(193, 248, 248), transparent),
+    linear-gradient(to top right, rgb(213, 150, 255), rgb(224, 255, 180)), 
+    linear-gradient(to bottom right, rgb(220, 159, 255), transparent);
+    background-blend-mode: normal; /* Se mezclan todos los gradientes */
+    background-size: 100% 100%; /* Tamaño del fondo */
+
+    height: 700px; /* Altura total de la ventana */
+    width: 500px; /* Eliminar márgenes */ 
+    top:100px;
+    left: 710px;
+
+    border-width: 10px; /* Ancho del borde */
+    border-style: solid; /* Estilo del borde (puede ser "solid", "dashed", "dotted", etc.) */
+    border-color: rgb(225, 249, 219); /* Color del borde */
+    filter: blur(4px);
+
+    
+    
+
+}
+.content{
+    position: absolute;
+    left: 730px;
+    top:95px;
+    width: 480px;
+
+    font-size: 27px;
+    color: #363830;
+    text-align: center;
+}
+h1{
+    font-size: 65px;
+}
+.buttonH{
+    width: 150px;
+    height: 60px;
+    border-radius: 30px;
+    border: solid #363830;
+    color: white;
+    background-color: #363830;
+    font-size: 25px;
+}
+.top{
+    position: absolute;
+    right:200px;
+    top:50px;
+    width: 480px;
+    height: 550px;
+}
+.bot{
+    position: absolute;
+    bottom: 50px;
+    left: 200px;
+    width: 480px;
+    height: 550px;
+}
+.star{
+    position: absolute;
+    top:195px;
+    left: 530px;
+}
+.small{
+    position: absolute;
+    bottom: 170px;
+    right: 560px;
+}
+.party{
+    position: absolute;
+    bottom: 120px;
+    right: 150px;
+}
+.explosion{
+    position: absolute;
+    top:205px;
+    left:100px
+}
+.T01{
+    position: absolute;
+    top:50px;
+    left: 150px;
+
+    font-size: 20px;
+    width: 460px;
+}
+.T02{
+    position: absolute;
+    bottom:30px;
+    right: 200px;
+
+    font-size: 20px;
+    width: 460px;
+}
+@media(max-width:700px)
+{
+
+.degradado{
+
+    height: 550px; /* Altura total de la ventana */
+    width: 350px; /* Eliminar márgenes */ 
+    top:700px;
+    left: 8px;
+
+}
+.content{
+    position: absolute;
+    left: 18px;
+    top:700px;
+    width: 350px;
+
+    font-size: 20px;
+    color: #363830;
+    text-align: center;
+}
+h1{
+    font-size: 55px;
+}
+.buttonH{
+    width: 120px;
+    height: 40px;
+    border-radius: 30px;
+    border: solid #363830;
+    color: white;
+    background-color: #363830;
+    font-size: 25px;
+}
+.top{
+    position: absolute;
+    right:auto;
+    left: 22px;
+    top:210px;
+    width: 350px;
+    height: 400px;
+}
+.n{
+    color: #8f8f8f;
+    font-size: 30px;
+    
+}
+
+.bot{
+    position: absolute;
+    top:1350px;
+    bottom: 0px;
+    left: 22px;
+    width: 350px;
+    height: 400px;
+}
+.star{
+    position: absolute;
+    top:575px;
+    left: 120px;
+    width: 150px;
+
+}
+.small{
+    position: absolute;
+    top:1220px;
+    bottom: 0px;
+    right: 0px;
+    left: 120px;
+    width: 150px;
+}
+.party{
+    
+    position: absolute;
+    bottom: 0px;
+    top:1800px;
+    right: 210px;
+}
+.explosion{
+    position: absolute;
+    top:0px;
+    left:210px;
+}
+.T01{
+    position: absolute;
+    top:0px;
+    left: 25px;
+
+    font-size: 18px;
+    width: 280px;
+}
+.T02{
+    
+    position: absolute;
+    bottom:0px;
+    top:1800px;
+    right: 25px;
+
+    font-size: 18px;
+    text-align: right;
+    width: 280px;
+}
+}
