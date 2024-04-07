@@ -3,12 +3,13 @@
     font-family: "Lato", sans-serif;
 }
 body{
-    margin: 40px;
+    margin: 29px;
 }
 .container{
     display: grid;
     grid-template-columns: 50% 50%;
-    grid-template-rows: 100px 770px;
+    grid-template-rows: 100px 760px;
+    border: solid 1px;
 }
 .left button{
     color: white;
@@ -31,10 +32,10 @@ h2{
 .titulo{
     grid-column: span 2;
     text-align: center;
-    border: solid 2px black;
+    border: solid 1px black;
 }
 .left{
-    border: 2px solid black;
+    border: 1px solid black;
     padding-top: 60px;
     padding-left: 50px;
 }
@@ -59,4 +60,23 @@ h3{
 }
 .cuadro img{
     margin: 30px 0;
+}
+.right{
+    display: grid;
+    grid-template-columns: 1fr 10px 1fr;
+    grid-template-rows: 259px 262px 259px;
+    border: solid 1px black;
+}
+.vacio{
+    grid-row: span 3;
+}
+.img1 img{
+    position: absolute;
+}
+.img1 p{
+    font-size: 25px;
+    margin: 73px;
+}
+.img3{
+    grid-row: span 2;
 }
