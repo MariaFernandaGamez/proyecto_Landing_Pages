@@ -1,0 +1,197 @@
+@import url('https://fonts.googleapis.com/css2?family=Edu+NSW+ACT+Foundation:wght@400..700&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Work+Sans:ital,wght@0,100..900;1,100..900&display=swap');
+body{
+    font-family: "Poppins", sans-serif;
+}
+.content{
+    width: 600px;
+    font-size: 25px;
+    color: #2C1001;
+    margin-left: 170px;
+    margin-top: 170px;
+}
+.buttonH{
+    
+    width: 300px;
+    height: 75px;
+    border-radius: 35px;
+    border: solid #FFDE81;
+    color: #2C1001;
+    background-color: #FFDE81;
+    font-size: 25px;
+    
+
+}
+.table{
+    display: flex;
+    margin-top: 100px;
+    margin-left: 160px;
+
+    background-color: #2C1001;
+    color:white;
+    border-radius: 20px;
+
+    width: 720px;
+
+    gap:40px;
+    padding: 20px;
+    padding-left: 50px;
+    font-size:19px
+}
+hr{
+    width: 25px;
+    margin-left:0
+}
+.n{
+    font-size: 21px;
+}
+
+
+.brown{
+    position: absolute;
+    right: 70px;    
+    bottom:120px
+}
+.destelloY{
+    position: absolute;
+    bottom: 450px;
+    right: 102px;
+
+}
+.yellow{
+    position: absolute;
+    right: 350px;
+    top:150px
+}
+.destelloB{
+    position: absolute;
+    right: 345px;
+    top:170px
+
+}
+.heart{
+    position: absolute;
+    right:450px;
+    top:300px;
+}
+.starB{
+    position: absolute;
+    top:70px;
+    right:720px
+}
+.starY{
+    position: absolute;
+    right: 50px;
+    bottom: 80px;
+}
+.phone{
+    position: absolute;
+    right:340px;
+    bottom: 10px;
+}
+
+@media(max-width:700px){
+    .content{
+        width: 370px;
+        font-size: 22px;
+        margin-left: 0px;
+        margin-top: 80px;
+        text-align: center;
+    }
+    h1{
+        font-size: 40px;
+    }
+    .buttonH{
+        margin-top: 20px;
+        width: 270px;
+        height: 55px;
+    }
+    .table{
+        display:flex;
+        flex-direction: column;
+        margin-top: 610px;
+        margin-left: 45px;
+    
+        background-color: #2C1001;
+        color:white;
+        border-radius: 20px;
+    
+        width: 260px;
+    
+        gap:40px;
+        padding: 0px;
+        padding-left: 20px;
+        font-size:19px
+    }
+    hr{
+        width: 25px;
+        margin-left:115px;
+    }
+    .n{
+        font-size: 21px;
+        text-align: center;
+    }
+    
+    
+    .brown{
+        position: absolute;
+        right: 0px;    
+        bottom:0px;
+        top:600px;
+        width: 340px;
+    }
+    .destelloY{
+        position: absolute;
+        bottom: 0px;
+        top:685px;
+        right: 19px;
+
+        width: 70px;
+    
+    }
+    .yellow{
+        position: absolute;
+        right: 90px;
+        top:600px;
+
+        width: 280px;
+        height: 300px;
+    }
+    .destelloB{
+        position: absolute;
+        right: 85px;
+        top:608px;
+
+        width:90px
+    
+    }
+    .heart{
+        position: absolute;
+        right:140px;
+        top:670px;
+        
+        width: 200px;
+    }
+    .starB{
+        position: absolute;
+        top:560px;
+        right:300px;
+
+        width: 90px;
+    }
+    .starY{
+        position: absolute;
+        right: 5px;
+        bottom: 0px;
+        top:900px;
+
+        width: 90px;
+    }
+    .phone{
+        position: absolute;
+       
+        left:10px;
+        bottom: 0px;
+        top:710px;
+        width:300px
+    }
+}
