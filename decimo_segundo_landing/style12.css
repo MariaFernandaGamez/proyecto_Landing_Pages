@@ -1,0 +1,148 @@
+@import url('https://fonts.googleapis.com/css2?family=Edu+NSW+ACT+Foundation:wght@400..700&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Work+Sans:ital,wght@0,100..900;1,100..900&display=swap');
+
+body{
+    font-family: "Poppins", sans-serif;
+}
+.top{
+    position: absolute;
+    right:250px;
+    top:50px
+}
+.mid{
+    position: absolute;
+    right: 586px;
+    top:230px;
+}
+.bot{
+    position: absolute;
+    right: 928px;
+    top:450px;
+}
+.dawn{
+    position: absolute;
+    bottom: 190px;
+    right: 280px;
+}
+.wave{
+    position: absolute;
+    right: 830px;
+    top:60px;
+}
+.spiral{
+    position: absolute;
+    bottom: 70px;
+    left: 270px;
+}
+.dawn2{
+    position: absolute;
+    right: 780px;
+    top:310px
+}
+.content{
+    font-size: 25px;
+    width: 600px;
+    margin-left: 100px;
+}
+.buttonH{
+    width: 160px;
+    height: 55px;
+    border-radius: 30px;
+    border: solid rgb(24, 23, 23);
+    color: white;
+    background-color: #252525;
+    font-size: 23px;
+}
+.author{
+    position: absolute;
+    bottom: 25px;
+    right: 120px;
+
+    width: 600px;
+
+    font-size: 20px;
+}
+.photo{
+    position: absolute;
+    bottom: 50px;
+    right: 750px;
+}
+.wave2{
+    display: none;
+}
+
+
+@media(max-width:700px){
+    .content{
+        position: absolute;
+        font-size: 20px;
+        z-index:1 ;
+        top:10px;
+        margin-left: 5px;
+        width: auto;
+    }
+    
+    .top{
+        position: absolute;
+        width: 250px;
+        height: 300px;
+        top:480px;
+        right: 10px;
+    }
+    .mid{
+        position: absolute;
+        width: 240px;
+        height: 310px;
+        top:800px;
+        right: 0;
+        left: 15px;
+    }
+    .bot{
+        position: absolute;
+        width: 240px;
+        height: 300px;
+        top:1000px;
+        right: 10px;
+    }
+    .spiral{
+        position: absolute;
+        top: 525px;
+        left: 10px;   
+        height: 220px;
+    }
+    .dawn{
+        position: absolute;
+        right: 10px;
+        top:830px;
+        width: 120px;
+        height: 130px;
+
+    }
+    .dawn2{
+        position: absolute;
+        top:1210px;
+        right: inherit;;
+        width: 150px;
+        height: 150px;
+    }
+    .author{
+        top:1500px;
+        font-size: 18px;
+        right: 0;
+        width: auto;
+        text-align: center;
+    }
+    .photo{
+        right: 155px;
+        top:1410px;
+    }
+    .wave{
+        display: none;
+    }
+    .wave2{
+        display: flex;
+        position: absolute;
+        height: 210px;
+        right:35px;
+        top:25px
+    }
+}
