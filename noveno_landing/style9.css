@@ -42,7 +42,6 @@ p{
     display: flex;
     width: 830px;
     border-radius: 100px;
-    backdrop-filter: blur(10px);
     background-color: rgba(255, 255, 255, 0.3);
     line-height: 1;
     -webkit-backdrop-filter: blur(10px);
