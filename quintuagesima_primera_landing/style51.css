@@ -1,0 +1,100 @@
+@import url('https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&display=swap');
+*{
+    font-family: "Lato", sans-serif;
+    color: white;
+}
+body{
+    
+    padding: 0;
+    display: flex;
+}
+.section1 {
+    width: 48%;
+    margin: 2% 0 2% 2% ;
+    height: 890px;
+    background-image: url("img51/fondo1.png");
+    align-content: space-between;
+    button{
+        color: black;
+        background-color: rgba(255, 255, 255, 0.781);
+        border: none;
+        border-radius: 30px;
+        font-size: 20px;
+        padding: 15px 50px;
+        margin-top: 30px;
+    }
+    p{
+        font-size: 25px;
+        
+    }
+    .primero{
+        text-align: center;
+        position: relative;
+        top: 290px;
+    }
+
+}
+.section2{
+    display: flex;
+    text-align: start;
+    justify-content: center;
+    width: 48%;
+    margin: 2% 2% 2% 0;
+    height: 890px;
+    background-image: url("img51/fondo2.png");
+}
+.fondo{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    background-image: url("img51/degrade.png");
+    height: 890px;
+    width: 100%;
+    padding: 0 50px;
+    h1{
+        margin-top: 0;
+        font-size: 50px;
+    }
+}
+.text{
+    display: flex;
+}
+.d{
+   position: absolute;
+   top: 329px;
+   left: 836px;
+}
+.caja{
+    margin: 10px 20px 10px;
+}
+.caja h2{
+    color: rgba(255, 255, 255, 0.527);
+    font-size: 40px;
+}
+.caja p{
+    font-size: 21px;
+}
+@media (max-width:768px) {
+    body{
+        flex-direction: column;
+    }
+    .section1, .section2{
+        width: 98%;
+        margin: 1%;
+        height: 1000px;
+        background-size: cover;
+        background-position: center;
+    }
+    .fondo{
+        width: 72%;
+        height: auto;
+        background-size: cover;
+        text-align: center;
+    }
+    .caja{
+        margin: 0;
+    }
+    .caja p{
+        font-size: 17px;
+    }
+}
