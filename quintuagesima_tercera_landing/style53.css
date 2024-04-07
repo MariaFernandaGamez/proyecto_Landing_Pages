@@ -1,0 +1,86 @@
+@import url('https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&display=swap');
+*{
+    font-family: "Lato", sans-serif;
+   
+}
+.content{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.info{
+    margin-left: 80px;
+}
+.logo{
+    position: absolute;
+    left: 320px;
+    top: 40px;
+}
+.compu{
+    width: 350px; 
+}
+.info p{
+    font-size: 21px;
+}
+h1{
+    font-size:60px;
+}
+.tarjetas{
+    display: flex;
+    justify-content: space-between;
+}
+.tarjeta{
+    margin-left: 35px;
+}
+.tarjeta img{
+    width: 330px;
+    height: 450px; 
+    margin-bottom: 20px;
+}
+.p{
+    margin: 0.5em 0;
+    font-size: 18px;
+}
+.text{
+    display: flex;
+    justify-content: flex-start;
+}
+.text p{
+    font-size: 18px;
+    margin: 0 0 0 10px;
+}
+h2{
+    font-family: "Times New Roman", Times, serif;
+    font-size: 40px;
+    margin: 0;
+    color: rgb(148, 147, 147);
+}
+@media (max-width:768px) {
+    .content{
+        flex-direction: column;
+    }
+    .info{
+        margin: 0;
+    }
+    .logo{
+        left: 270px;
+    }
+    .tarjetas{
+        flex-direction: column;
+    }
+    .p{
+        font-size: 26px;
+    }
+    .tarjeta{
+        margin: 50px 0 0 0;
+    }
+    .tarjeta img{
+        border-radius: 20px;
+    }
+    h2{
+        font-size: 48px;
+    }
+    .text p{
+        font-size: 20px;
+    }
+}
