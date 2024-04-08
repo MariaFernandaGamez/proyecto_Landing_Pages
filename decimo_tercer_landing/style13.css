@@ -2,6 +2,7 @@
 body{
     font-family: "Poppins", sans-serif;
     display: flex;
+    color: #595858;
 }
 .degradado{
 
@@ -17,7 +18,7 @@ body{
     height: 700px; /* Altura total de la ventana */
     width: 500px; /* Eliminar márgenes */ 
     top:100px;
-    left: 710px;
+    left: 640px;
 
     border-width: 10px; /* Ancho del borde */
     border-style: solid; /* Estilo del borde (puede ser "solid", "dashed", "dotted", etc.) */
@@ -30,7 +31,7 @@ body{
 }
 .content{
     position: absolute;
-    left: 730px;
+    left: 660px;
     top:95px;
     width: 480px;
 
@@ -52,22 +53,22 @@ h1{
 }
 .top{
     position: absolute;
-    right:200px;
+    right:220px;
     top:50px;
-    width: 480px;
+    width: 450px;
     height: 550px;
 }
 .bot{
     position: absolute;
     bottom: 50px;
-    left: 200px;
-    width: 480px;
+    left: 180px;
+    width: 450px;
     height: 550px;
 }
 .star{
     position: absolute;
     top:195px;
-    left: 530px;
+    left: 470px;
 }
 .small{
     position: absolute;
@@ -99,6 +100,10 @@ h1{
 
     font-size: 20px;
     width: 460px;
+}
+.n{
+    
+    font-size:25px
 }
 @media(max-width:700px)
 {

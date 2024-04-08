@@ -55,10 +55,16 @@ hr{
 .i{
     margin-right: 40px;
 }
+#ii{
+    margin-left: 80px;
+}
 @media(max-width:700px){
     body{
         display: flex;
         flex-direction: column;
+    }
+    #ii{
+        margin-left: 0px;
     }
     .content{
         text-align: center;
