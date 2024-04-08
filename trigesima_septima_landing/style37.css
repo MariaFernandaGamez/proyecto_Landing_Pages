@@ -1,0 +1,185 @@
+@import url('https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Mono:ital,wght@0,100..700;1,100..700&display=swap');
+*{
+    font-family: "Lato", sans-serif;
+}
+.top{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 80px;
+}
+.info button{
+    color: white;
+    background-color: rgba(0, 0, 0, 0.863);
+    border: none;
+    border-radius: 30px;
+    font-size: 20px;
+    padding: 15px 50px;
+}
+h1{
+    font-size: 55px;
+    margin: 0;
+}
+.info p{
+    font-size: 25px;
+}
+.img-fondo{
+    background-image: url("img37/Fondo.png");
+    width: 567px;
+    height: 360px;
+    margin-left: 100px;
+    border: black 2px dashed;
+    background-position: center;
+}
+.button{
+    display: flex;
+    justify-content: center;
+    margin-top: 70px;
+}
+.button p{
+    margin: 0;
+    font-size: 20px;
+}
+.red{
+    display: flex;
+    justify-content: space-between;
+}
+.red img{
+    width: 23px;
+    height: 23px;
+    
+}
+.bar1, .bar2, .bar3, .bar4{
+    margin: 15px;
+    padding: 20px 30px 10px;
+    border-radius: 15px;
+}
+.bar1{
+    background-color: #F1C2B0;
+}
+.bar2{
+    background-color: #F9EB98;
+}
+.bar3{
+    background-color: #C0D9DD;
+}
+.bar4{
+    background-color: #6975E8;
+}
+h2{
+    font-family: "Roboto Mono", monospace;
+    color: white;
+    font-size: 40px;
+    margin: 0 0 10px;
+}
+h3{
+    font-size: 25px;
+    margin: 0 0 5px;
+}
+.img-top{
+    display: flex;
+    justify-content: space-between;
+} 
+.cuadrito{
+    width: 25px;
+    height: 25px;
+}
+.c1{
+    position: relative;
+    bottom: 12.5px;
+    right: 12.5px;
+}
+.star{
+    width: 80px;
+    position: relative;
+    right: 150px;
+    top: 30px;
+}
+.c2{
+    position: relative;
+    bottom: 12.5px;
+    left: 12.5px;
+}
+.img-center{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.spiral{
+    position: relative;
+    width: 190px;
+}
+.play{
+    position: relative;
+    right: 30px;
+    width: 75px;
+    height: 75px;
+}
+.asteri{
+    position: relative;
+    width: 120px;
+    top: 70px;
+}
+.img-bottom{
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-end;
+    margin: 24px 0;
+}
+.c3{
+    position: relative;
+    top: 12.5px;
+    right: 12.5px;
+}
+.flecha{
+    position: relative;
+    top: 44px;
+    left: 190px;
+}
+.c4{
+    position: relative;
+    top: 12.5px;
+    left: 12.5px;
+}
+@media (max-width:768px) {
+    .top{
+        flex-direction: column;
+    }
+    .img-fondo{
+        width: 350px;
+        height: 230px;
+        margin: 60px 0;
+    }
+    .star{
+        width: 50px;
+        top :20px;
+        right: 110px;
+    }
+    .spiral{
+        width: 140px;
+        bottom: 30px;
+        right: 10px;
+    }
+    .play{
+        width: 55px;
+        height: 55px;
+        bottom: 20px;
+    }
+    .asteri{
+        width: 70px;
+        top: 50px;
+    }
+    .c3, .c4{
+        top: -25.5px;
+    }
+    .flecha{
+        width: 50px;
+        top: 0;
+        left: 130px;
+    }
+    .button{
+        flex-direction: column;
+        margin: 25px;
+    }
+}
