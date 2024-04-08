@@ -1,0 +1,115 @@
+@import url('https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&display=swap');
+*{
+    font-family: "Lato", sans-serif;
+}
+body{
+    background-color: rgb(63, 62, 62);
+    color: white;
+}
+.fondo{
+    display: grid;
+    background-color: rgb(19, 18, 18);
+    grid-template-columns: 984px 328px;
+    padding: 10px 0 0 10px;
+    
+}
+.left{
+    display: grid;
+    grid-template-columns: repeat(3,328px);
+    grid-template-rows: repeat(3,299px);
+}
+.img1{
+    background-image: url("img36/img1.png");
+}
+.img2{
+    background-image: url("img36/img2.png");
+}
+.img3{
+    background-image: url("img36/img3.png");
+}
+.img4{
+    background-image: url("img36/img4.png");
+    grid-column: span 2;
+}
+.img5{
+    background-image: url("img36/img5.png");
+}
+.img6{
+    background-image: url("img36/img6.png");
+}
+.img7{
+    background-image: url("img36/img7.png");
+}
+.img8{
+    background-image: url("img36/img8.png");
+}
+.right{
+    display: grid;
+    grid-template-columns: 328px;
+    grid-template-rows: repeat(2,448.5px);
+}
+.img1-1{
+    background-image: url("img36/img1.1.png");
+}
+.img2-1{
+    background-image: url("img36/img2.1.png");
+}
+
+.text{
+    background-color: rgba(0, 0, 0, 0.39);
+    padding: 175px 210px;
+    position: absolute;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    top: 18px;
+}
+h1{
+    font-size: 90px;
+    margin: 30px 0;
+}
+.info p{
+    font-size: 30px;
+}
+.barras{
+    display: flex;
+}
+.bar{
+    display: flex;
+    background-color: rgba(255, 255, 255, 0.24);
+    border: solid white 1px;
+    border-radius: 15px;
+    align-items: center;
+    padding: 2px 20px;
+    margin: 30px 20px;
+   
+}
+.bar p{
+    margin-left: 30px;
+    font-size: 20px;
+}
+.bar img{
+    width: 30px;
+    height: 30px;
+}
+@media (max-width:768px) {
+    .fondo{
+        grid-template-columns: 984px;
+        grid-template-rows: 897px 448.5px;
+    }
+    h1{
+        font-size: 80px;
+    }
+    .text{
+        padding: 0;
+    }
+    .barras{
+        flex-direction: column;
+        margin-top: 100PX;
+    }
+    .right{
+        grid-template-columns: 328px 328px;
+    }
+}
