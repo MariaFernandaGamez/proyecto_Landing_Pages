@@ -1,0 +1,148 @@
+@import url('https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&display=swap');
+*{
+    font-family: "Lato", sans-serif;
+}
+.container{
+    display: flex;
+    justify-content: center;
+    align-items: flex-end;
+    padding: 20px;
+}
+h1{
+    font-size: 60px;
+    margin: 10px 0;
+}
+.info p{
+    font-size: 25px;
+}
+.info button{
+    color: white;
+    background-color: rgba(0, 0, 0, 0.966);
+    border: none;
+    border-radius: 30px;
+    font-size: 20px;
+    padding: 18px 40px;
+    margin-bottom: 20px;
+}
+.cuadro{
+    border: solid 2px black;
+    box-shadow: 8px 8px 0 0 black;
+    margin-top: 40px;
+    padding: 20px;
+}
+.black{
+    color: white;
+    background-color: black;
+    text-align: center;
+    padding: 4px 0;
+    margin: 0;
+}
+.redes{
+    margin-top: 90px;
+}
+.images{
+    display: grid;
+    grid-template-columns: repeat(3,220px);
+    grid-template-rows: repeat(4,204px);
+    margin-left: 60px;
+}
+.images .img{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.img1{
+    background-color: #D7A94F;
+    padding: 5px;
+}
+.img2{
+    background-image: url("img35/woman1.png");
+}
+.img3{
+    padding: 18px 0;
+    background-color: #EFBDD9;
+}
+.img4{
+    background-image: url("img35/men.png");
+    grid-row: span 2;
+}
+.img5{
+    background-image: url("img35/woman2.png");
+    grid-column: span 2;
+}
+.img6{
+    background-image: url("img35/woman4.png");
+    grid-row: span 2;
+}
+.img7{
+    background-image: url("img35/woman3.png");
+}
+.img8{
+    background-color: #79BBE3;
+}
+.img9{
+    padding: 24.5px 0;
+    background-color: #685FD4;
+}
+.imga{
+    position:absolute;
+    top: 657px;
+    right: 505px;
+}
+.images button{
+    position: relative;
+    left: 169px;
+    color: black;
+    background-color: white;
+    border: solid 2px black;
+    box-shadow: 2px 3px 0 0 black;
+    border-radius: 30px;
+    font-size: 17px;
+    padding: 10px 20px;
+    margin-bottom: 20px;
+}
+@media (max-width:768px) {
+    .container{
+        flex-direction: column;
+        padding: 0;
+    }
+    .text{
+        text-align: center;
+    }
+    .redes{
+        text-align: center;
+    }
+    .images{
+        margin-top: 90px;
+        grid-template-columns: repeat(2,190px);
+        grid-template-rows: repeat(6,174px);
+        grid-auto-flow: dense;
+        img{
+            width: 130px;
+        }
+    }
+    .img7, .img2, .img4, .img5, .img6{
+        background-size: cover;
+    }
+    .img1, .img3, .img8, .img9{
+        padding: 20px;
+    }
+    .imga{
+        left: 228px;
+        top: 1855px;
+    }
+    .images button{
+        left: 0;
+    }
+    .images #b1{
+        left: -53px;
+    }
+    #b2{
+        left: 140px;
+    }
+    #b3{
+        top: 155px;
+        left: -69px;
+    }
+}
