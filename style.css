@@ -10,10 +10,20 @@ h1{
 }
 .container{
     display: flex;
+    flex-direction: column;
     font-size: 25px ;
     padding: 10px;
     font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
     
+}
+.primera_fila{
+    display: flex;
+    justify-content: center;
+}
+.segunda_fila{
+    display: flex;
+    margin-top: 50px;
+    justify-content: center;
 }
 a{
     text-decoration: none;
@@ -27,34 +37,43 @@ a:hover{
     border-radius: 20px;
 }
 .d4{
-    background-color: rgb(205, 151, 160);
+    background-color: rgb(229, 234, 124);
     text-align: center;
     border-radius: 20px;
-    margin-left:10px
+    margin-left:25px
 }
 .d1{
     background-color: rgb(164, 101, 153);
     text-align: center;
     border-radius: 20px;
-    
-    
-
 }
 .d3{
     background-color: rgb(181, 133, 181);
     border-radius: 2dvb;
     text-align: center;
-    margin-left:10px
+    margin-left:25px
 
 }
 .d2{
     background-color: rgb(190, 115, 189);
     text-align: center;
     border-radius: 20px;
-    margin-left:10px
+    margin-left:25px
     
 }
 h1{
     text-align: center;
-    margin-left:10px
+    margin-left:25px
+}
+.d5{
+    background-color: rgb(128, 210, 181);
+    text-align: center;
+    border-radius: 20px;
+    margin-left: 25px;
+}
+.d6{
+    background-color: rgb(165, 228, 238);
+    text-align: center;
+    border-radius: 20px;
+    margin-left: 25px;
 }
