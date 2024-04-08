@@ -1,0 +1,126 @@
+@import url('https://fonts.googleapis.com/css2?family=Edu+NSW+ACT+Foundation:wght@400..700&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Work+Sans:ital,wght@0,100..900;1,100..900&display=swap');
+body{
+    font-family: "Poppins", sans-serif;
+    background-color: #010625;
+    color: white;
+}
+.content {
+    width: 676px;
+    font-size: 20px;
+    margin-left: 205px;
+}
+.buttonH {
+    width: 150px;
+    height: 50px;
+    font-size: 25px;
+
+    border-radius: 30px;
+    color: rgb(0, 0, 0);
+    background-color: #ffffff;
+    border:solid 2px white
+}
+.img {
+    margin-top: 20px;
+    
+    width:610px;
+    height: 240px;
+}
+.botI {
+    display: flex;
+    margin-top: 75px;
+    justify-content: center;
+    gap:120px
+}
+.i{
+    width: 400px;
+    height: 220px;
+}
+.list {
+    position: absolute;
+    right:200px;
+    top:300px;
+
+    width: 360px;
+    font-size: 15px;
+}
+hr{
+    width: 80px;
+    border: solid 2px white;
+    margin-left: 0;
+}
+
+.top1 {
+    position: absolute;
+    top:0;
+    width:220px;
+    height: 260px;
+    right:500px
+}
+.top2 {
+    position: absolute;
+    top:0;
+    right:200px;
+    width:220px;
+    height: 260px;
+}
+
+
+@media(max-width:700px){
+    .content {
+        font-size: 14px;
+        margin-left: 0px;
+    }
+    .buttonH {
+        width: 130px;
+        height: 40px;
+        font-size: 25px;
+        
+        margin-left: 120px;
+    }
+    .img {
+        position: absolute;
+        top: 280px;
+        left:7px;
+        
+        width:380px;
+    }
+    .botI {
+        flex-direction: column;
+        margin-top: 780px;
+
+        gap:10px
+    }
+    .i{
+        width: 380px;
+        height: 280px;
+    }
+    .list {
+        position: absolute;
+        right:0px;
+        top:600px;
+    
+        width: 360px;
+        font-size: 15px;
+    }
+    
+    .top1 {
+        position: absolute;
+        top:0;
+
+        width:110px;
+        height: 140px;
+
+        right:120px
+    }
+    .top2 {
+        position: absolute;
+        top:0;
+        right:5px;
+
+        width:110px;
+        height: 140px;
+    }
+}
+
+
+
