@@ -93,13 +93,20 @@ h2{
         background-size: cover;
         height: auto;
     }
+    .container{
+        margin-top: 40px;
+    }
+    .container p{
+        text-align: start;
+        margin-left: 30px;
+    }
     h1{
         font-size: 55px;
         bottom: 20px;
     }
     .images{
-        grid-template-columns: 226px 226px;
-        grid-template-rows: 226px 226px 250px 226px 226px; 
+        grid-template-columns: 200px 200px;
+        grid-template-rows: 216px 216px 240px 216px 216px; 
         grid-auto-flow: dense;
     }
     .img3{

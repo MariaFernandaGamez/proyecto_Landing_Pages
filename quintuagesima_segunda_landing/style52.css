@@ -63,7 +63,7 @@ h1{
     display: flex;
     justify-content: space-around;
     border: solid 2px black;
-    border-radius: 20px;
+    border-radius: 25px;
     padding: 65px 8px 24px ;
 }
 .img{
@@ -72,6 +72,46 @@ h1{
         width: 280px;
         height: 250px;
         margin: 18px;
+    }
+}
+@media (min-width:1400px) {
+    .container{
+        justify-content: center;
+    }
+    .info{
+        margin-right: 50px;
+    }
+    .info img{
+        width: 551px;
+        height: 735px;
+    }
+    .info p{
+        font-size: 23px;
+    }
+    .titulo{
+        top: 120px;
+        left: 550px;
+    }
+    h1{
+        font-size: 80px;
+    }
+    .img img{
+        width: 374px;
+        height: 332px;
+    }
+    h2{
+        font-size: 28px;
+    }
+    .caja{
+        padding: 90px 4px 40px ;
+        margin: 0 20px;
+
+    }
+    .caja p{
+        font-size: 18px;
+    }
+    .logo{
+        left: 350px;
     }
 }
 @media (max-width:768px) {

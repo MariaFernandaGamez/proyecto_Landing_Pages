@@ -6,8 +6,9 @@
     background-color: #F4F4F4;
 }
 body{
-    padding: 40px 60px;
+    padding: 90px 100px;
     background-color: white;
+    height: 900px;
 }
 .container{
     display: flex;
@@ -20,13 +21,14 @@ body{
 }
 h1{
     background-color: transparent;
-    font-size: 60px;
-    margin-left: 80px;
+    font-size: 70px;
+    margin-left: 90px;
     margin-bottom: 30px;
 }
 .info{
-    margin-right: 170px;
-
+    width: 1300px;
+    margin-right: 40px;
+    
 }
 .info p{
     background-color: transparent;
@@ -49,49 +51,120 @@ h1{
     box-shadow: 8px 8px 0 0 black;
     margin-left: 80px;
 }
+.img{
+    margin-top: 150px;
+    margin-left: 50px;
+}
 .circle2{
     background-color: transparent;
-    position: relative;
+    position: absolute;
     z-index: 5;
-    bottom: 90px;
-    left: 125px;
+    right: 640px;
+    top: 600px;
 }
 .fondo2{
     position: relative;
-    left: 50px;
+    right: 140px;
+    top: 4px;
 }
 .plant{
     background-color: transparent;
-    position: relative;
+    position:absolute;
     z-index: 5;
-    right: 380px;
+    right: 280px;
+    bottom: 125px;
 }
 .circle1{
     background-color: transparent;
     width: 170px;
-    position: relative;
-    bottom: 630px;
-    left: 550px;
+    z-index: 5;
+    position: absolute;
+    right: 190px;
 }
 .barra{
     position: relative;
-    border: solid 2px black;
+    background-color: white;
+    border: solid 2px rgb(107, 107, 107);
     display: flex;
     padding: 20px;
     border-radius: 30px;
     justify-content: center;
-    align-items: center;
-    bottom: 179px;
 }
 .barra p{
     font-size: 22px;
+    background-color: white;
+}
+.barra img{
+    background-color: white;
 }
 .bar{
     display: flex;
     justify-content: center;
     align-items: center;
     margin: 0 40px;
+    background-color: white;
 }
 .bar p{
     margin-left: 40px;
+    background-color: white;
+}
+@media (max-width:768px) {
+    .container{
+        flex-direction: column;
+    }
+    body{
+        margin: 0;
+        padding: 0;
+    }
+    h1{
+        margin: 0 0 20px 30px;
+        font-size: 60px;
+    }
+    .info p{
+        margin-top: 30px;
+    }
+    .info button{
+        margin-top: 65px;
+    }
+    .fondo2{
+        width: 300px;
+        height: 450px;
+        right: 0px;
+    }
+    .circle1{
+        width: 120px;
+        right: 0;
+    }
+    .circle2{
+        width: 90px;
+        top: 1440px;
+        right: 290px;
+    }
+    .plant{
+        width: 250px;
+        height: 550px;
+        right: 70px;
+        top: 1076px;
+        bottom: 0;
+    }
+    .info{
+        width: 100%;
+    }
+    .info p{
+        margin-left: 30px;
+    }
+    .barra{
+        flex-direction: column;
+        padding: 10px;
+        margin:0 10px;
+    }
+    .barra img {
+        width: 120px;
+    }
+    .bar{
+        margin: 10px 10px 40px 10px;
+        p{
+            font-size: 18px;
+        }
+    }
 }

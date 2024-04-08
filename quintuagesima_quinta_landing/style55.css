@@ -59,7 +59,21 @@ h2{
         
     }
 }
-
+@media (min-width: 1400px) {
+    body{
+        margin: 0;
+    }
+    .container{
+        background-position: center;
+        padding: 0 ;
+    }
+    .info{
+        margin-left: 60px;
+    }
+    .images{
+        margin-right: 60px;
+    }
+}
 @media (max-width: 768px) {
     body{
         margin: 0;

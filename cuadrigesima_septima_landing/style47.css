@@ -2,7 +2,7 @@
 *{
     font-family: "Lato", sans-serif;
     margin: 0;
-    
+    background-color: #F8F8F8;
 }
 .container{
     background-color: #F8F8F8;
@@ -85,6 +85,8 @@ h2{
     .container{
         flex-direction: column;
         align-items: flex-start;
+        margin-top: 0;
+        padding-top: 40px;
     }
     h1{
         font-size: 50px;

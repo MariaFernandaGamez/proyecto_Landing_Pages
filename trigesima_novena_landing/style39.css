@@ -83,7 +83,7 @@ h1{
         margin: 0;
     }
     .container{
-        margin: 100px 0;
+        margin: 80px 10px;
         flex-direction: column;
     }
     .container button{
