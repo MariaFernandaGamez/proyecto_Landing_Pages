@@ -142,9 +142,48 @@ h3{
     top: 12.5px;
     left: 12.5px;
 }
+@media (min-width:1400px) {
+    .img-fondo{
+        background-size: cover;
+        width: 660px;
+        height: 420px;
+    }
+    .spiral{
+        top: 15px;
+    }
+    .play{
+        top: 15px;
+    }
+    .asteri{
+        width: 132px;
+        top: 110px;
+        left: 25px;
+    }
+    .c3, .c4{
+        top: 72px;
+    }
+    .flecha{
+        top: 104px;
+    }
+    h1{
+        font-size: 70px;
+    }
+    .button{
+        margin-top: 130px;
+    }
+    .button p{
+        margin: 0;
+        font-size: 25px;
+    }
+    h2{
+        font-size: 55px;
+    }
+}
 @media (max-width:768px) {
+
     .top{
         flex-direction: column;
+        margin-top: 40px;
     }
     .img-fondo{
         width: 350px;

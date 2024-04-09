@@ -102,6 +102,15 @@ h1{
     padding: 10px 20px;
     margin-bottom: 20px;
 }
+@media (min-width:1400px) {
+    .container{
+        margin-top: 40px;
+    }
+    .imga{
+        top: 690px;
+        right: 753px;
+    }
+}
 @media (max-width:768px) {
     .container{
         flex-direction: column;
@@ -129,7 +138,7 @@ h1{
         padding: 20px;
     }
     .imga{
-        left: 228px;
+        left: 225px;
         top: 1855px;
     }
     .images button{

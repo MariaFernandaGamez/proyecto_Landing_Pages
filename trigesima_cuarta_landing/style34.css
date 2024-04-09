@@ -80,3 +80,55 @@ h3{
 .img3{
     grid-row: span 2;
 }
+@media (min-width:1400px) {
+    h3{
+        font-size: 30px;
+    }
+    
+    .container{
+        display: grid;
+        grid-template-columns: 55% 655px;
+        grid-template-rows: 100px 780px;
+        border: solid 0px;
+        margin-left: 70px;
+    }
+    .right{
+        display: grid;
+        grid-template-columns: 1fr 21px 1fr;
+        grid-template-rows: 269px 272px 269px;
+        border: solid 1px black;
+    }
+   .img3 img{
+        width: 326px;
+        height: 509px;
+   }
+}
+@media (max-width:768px) {
+    body{
+        margin: 5px;
+    }
+    .titulo{
+        grid-column: span 1;
+    }
+    h1{
+        font-size: 65px;
+    }
+    .container{
+        grid-template-columns: 100%;
+        grid-template-rows: 200px 1360px 1560px;
+    }
+    .barra{
+        flex-direction: column;
+        margin: 20px 40px 20px 0;
+    }
+    .cuadro{
+        margin: 15px 0;
+    }
+    .right{
+        grid-template-columns: 100%;
+        grid-template-rows: 259px;
+    }
+    .vacio{
+        grid-row: span 0;
+    }
+}

@@ -94,6 +94,33 @@ h1{
     width: 30px;
     height: 30px;
 }
+@media (min-width:1400px) {
+    .fondo{
+        background-color: rgb(19, 18, 18);
+        grid-template-columns: 1020px 340px;
+        padding: 0;
+        margin-left: 250px;
+    }
+    h1{
+        font-size: 105px;
+    }
+    .left{
+        grid-template-columns: repeat(3,340px);
+        grid-template-rows: repeat(3,315px);
+    }
+    .right{
+        grid-template-columns: 340px;
+        grid-template-rows: repeat(2,472.5px);
+    }
+    .img1, .img2, .img4, .img5, .img6, .img7, .img8,.img1-1, .img2-1{
+        background-size: cover;
+    }
+    .text{
+        left: 258px;
+        top: 8px;
+        padding: 199px 223px;
+    }
+}
 @media (max-width:768px) {
     .fondo{
         grid-template-columns: 984px;
