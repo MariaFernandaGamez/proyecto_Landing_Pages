@@ -3,14 +3,14 @@
     font-family: "Lato", sans-serif;
 }
 body{
-    background-color: rgb(63, 62, 62);
+    background-color: rgba(0, 0, 0, 0.932);
     color: white;
 }
 .fondo{
     display: grid;
     background-color: rgb(19, 18, 18);
     grid-template-columns: 984px 328px;
-    padding: 10px 0 0 10px;
+    margin: 10px;
     
 }
 .left{
@@ -112,7 +112,7 @@ h1{
         grid-template-columns: 340px;
         grid-template-rows: repeat(2,472.5px);
     }
-    .img1, .img2, .img4, .img5, .img6, .img7, .img8,.img1-1, .img2-1{
+    .img1, .img2, .img3, .img4, .img5, .img6, .img7, .img8,.img1-1, .img2-1{
         background-size: cover;
     }
     .text{
