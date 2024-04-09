@@ -84,34 +84,29 @@ p{
         margin-top: 30px;
     }
     .i{
-        position: absolute;
-    
-        bottom: 0;
-        left:150px;
-    
-        z-index: 2;
+        left:0px;
+        top:580px;
+
+        width: 390px;
     
     }
     .ellipse{
-        position: absolute;
-        z-index: 0;
-    
-        left:150px;
-        bottom:180px
+        width:360px;
+        
+        left:12px;
+        bottom:0px;
+        top:550px
     
     }
     .patL{
-        position: absolute;
-        z-index: 1;
-    
-        left:130px;
-        top:100px
+        width: 100px;
+        left:270px;
+        top:780px
     }
     .patR{
-        position: absolute;
-        z-index: 1;
-    
-        left:580px;
-        bottom:70px
+        width: 100px;
+        left:20px;
+        bottom:0px;
+        top:570px
     }
 }

@@ -142,14 +142,16 @@ body{
     .r1{
         
         height: 340px;
-        width: 185px;
-        height: 340px;
+        width: 165px;
+        height: 320px;
+        margin-left: 10px;
     }
     .r2{
         
         margin-top: 100px;
-        width: 185px;
-        height: 340px;
+        width: 160px;
+        height: 320px;
+        margin-right: 10px;
     }
     .contentR{
         margin-top: 60px;
