@@ -68,6 +68,7 @@ h1{
 @media (max-width: 768px) {
     body{
         margin: 0;
+        background-color: #84BFBF;
     }
     
     h1{
@@ -87,11 +88,12 @@ h1{
     .images{
         position: relative;
         flex-direction: column;
-        top: 20px;
+        padding-top: 20px;
         bottom: 0px;
     }
     .images img{
         border-radius: 30px;
         margin: 10px 0;
+        box-shadow: 5px 5px 3px 3px #019C99;
     }
 }
